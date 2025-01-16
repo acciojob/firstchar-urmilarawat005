@@ -1,4 +1,11 @@
 function firstChar(text) {
+
+	let stripped = text.trimStart();
+	if(stripped){
+		return stripped[0];
+	}else{
+		return '';
+	}
   // your code here
 }
 
